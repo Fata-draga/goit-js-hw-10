@@ -14,7 +14,7 @@ breedSelect.addEventListener('change', onChangeSelect);
 fetchAndRenderBreeds();
 
 function onChangeSelect(event) {
-  loaderEl.classList.remove('visible');
+  loaderEl.classList.remove('unvisible');
   divPictEl.innerHTML = '';
   divDescEl.innerHTML = '';
   const breedId = event.target.value;
